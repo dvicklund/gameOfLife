@@ -1,8 +1,8 @@
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 var pixelsPerBlock = 5;
-var W = canvas.width = window.innerWidth;
-var H = canvas.height = window.innerHeight;
+var W = canvas.width = document.defaultView.innerWidth;
+var H = canvas.height = document.defaultView.innerHeight;
 var defaultMapCellsX = W / pixelsPerBlock;
 var defaultMapCellsY = H / pixelsPerBlock;
 var blockW = W / defaultMapCellsX;
