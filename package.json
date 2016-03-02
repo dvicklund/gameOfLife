@@ -1,0 +1,15 @@
+{
+  "name": "gameolifedvick",
+  "version": "0.0.1",
+  "description": "A simple implementation of Conway's game of life",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
